@@ -1,0 +1,35 @@
+html{
+    background-color: #2E1114;
+    background-image: url(/img/back-mateial.svg);
+}
+
+body{
+    font-size: 20px;
+    color: #E4E4E4;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: #501B1D;
+    padding: 1.5em 2em 1.5em 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-container{
+    width: 10em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-container-mini{
+    width: 5em;
+}
+
+.line{
+    width: 10em;
+    height: 1px;
+    background: #E4E4E4;
+}
