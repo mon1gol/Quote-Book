@@ -1,28 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="/styles/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/styles.css">
     <title>Quote Book</title>
 </head>
 <body>
     <header>
         <span class="text text-bold">Quote Book</span>
-        <span class="flex-container">
-            <img src="/icon/discord.svg" alt="discord">
-            <img src="/icon/telegram.svg" alt="telegram">
-            <img src="/icon/git.svg" alt="github">
+        <span class="flex">
+            <span class="flex-container">
+                    <img src="/icon/discord.svg" alt="discord">
+                    <img src="/icon/telegram.svg" alt="telegram">
+                    <img src="/icon/git.svg" alt="github">
+            </span>
         </span>
         <span class="flex-container flex-container-mini">
-            <span>
-                <input class="line" type="text">
-                <img src="/icon/search.svg" alt="search">
-            </span>
+            <div>
+                <!-- <img src="/icon/search.svg" alt="search"> -->
+                <input class="search-input" type="text" name="search-input" id="search-input" placeholder="поиск">
+            </div>
             <img src="/icon/sun.svg" alt="sun">
         </span>
     </header>
+
+    <!-- <main>
+        <div>
+
+        </div>
+        <div class="category-flex">
+            <div class="category-inside">
+                <img src="/img/music.svg" alt="music">
+                <label for="">Из музыки</label>
+            </div>
+            <div class="category-inside">
+                <img src="/img/books.svg" alt="books">
+                <label for="">Из книг</label>
+            </div>
+            <div class="category-inside">
+                <img src="/img/teacher.svg" alt="teacher">
+                <label for="">От преподавателей</label>
+            </div>
+            <div class="category-inside">
+                <img src="/img/films.svg" alt="films">
+                <label for="">Из фильмов</label>
+            </div>
+            <div class="category-inside">    
+                <img src="/img/games.svg" alt="games">
+                <label for="">Из игр</label>
+            </div>
+        </div>
+    </main> -->
 </body>
 </html>
