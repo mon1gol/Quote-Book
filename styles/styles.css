@@ -11,7 +11,7 @@
 html{
     overflow: scroll;
     overflow-x: hidden;
-    background-image: url(styles.css);
+    background-image: url(../img/back-mateial.svg);
     background-color: #2E1114;
 }
 ::-webkit-scrollbar {
