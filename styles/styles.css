@@ -120,6 +120,14 @@ input[type="text"]{
     grid-template-rows: repeat(3, 4fr);
 }
 
+.popular-quotes a{
+    position: relative;
+    left: 1230px;
+    font-size: 0.8em;
+    color: inherit;
+    text-decoration: inherit;
+}
+
 .popular-quotes-block{
     position: relative;
     display: flex;
@@ -138,16 +146,12 @@ input[type="text"]{
 
 .popular-quotes-category{
     margin-top: 4em;
+    color: #FCFF51;
+    font-weight: 100;
 }
 
 .popular-quotes-author{
     margin-top: 1em;
+    font-weight: 100;
 }
 
-.popular-quotes a{
-    position: relative;
-    left: 1230px;
-    font-size: 0.8em;
-    color: inherit;
-    text-decoration: inherit;
-}
