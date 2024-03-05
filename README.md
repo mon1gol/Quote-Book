@@ -1,0 +1,1 @@
+https://mon1gol.github.io/Quote-Book/
