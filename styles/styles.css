@@ -35,6 +35,10 @@ header{
     background-image: url(/img/back-mateial.svg);
 }
 
+.text-bold{
+    font-weight: 500;
+}
+
 .flex{
     margin-left: 10em;
 }
@@ -116,7 +120,8 @@ input[type="text"]{
     font-weight: 300;
     border-radius: 10px;
     font-size: 0.8em;
-    background-color: #714143;
+    box-shadow: 1px 1px 10px rgb(26, 26, 26);;
+    background-color: #2e0c0e9d;
     padding: 2em 1em 2em 1em;
 }
 
@@ -161,7 +166,9 @@ input[type="text"]{
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    box-shadow: 1px 1px 10px rgb(26, 26, 26);;
+    background-color: #2e0c0e9d;
+    padding: 2em 1em 2em 1em;
 }
 
 .author-block div{
