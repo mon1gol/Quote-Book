@@ -1,0 +1,30 @@
+.category{
+    margin: 10em 0 0 0;    
+}   
+
+.category-grid{
+    display: grid;
+    gap: 2em;
+    margin: 0 2em 0 2em;
+    grid-template-columns: repeat(5, 11.5em);
+}
+
+.category-grid a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.category-img img{
+    display: flex;
+    float: left;
+    width:  15em;
+}
+
+.category-label{
+    margin-top: 1em;
+}
+
+.music-fix img{
+    width: 14.1em;
+}

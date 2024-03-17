@@ -86,32 +86,6 @@ input[type="text"]{
     justify-content: center;
 }
 
-.category{
-    margin: 10em 0 0 0;    
-}   
-
-.category-grid{
-    display: grid;
-    gap: 2em;
-    margin: 0 2em 0 2em;
-    grid-template-columns: repeat(5, 11.5em);
-}
-
-.category-img img{
-    display: flex;
-    float: left;
-    height: 7em;
-    width:  10em;
-    background-size: cover;
-}
-
-.category-label div{
-    display: flex;
-    font-size: 0.8em;
-    align-items: center;
-    justify-content: center;
-}
-
 .popular-quotes{
     margin: 5em 1em 0 1em;
     display: grid;
