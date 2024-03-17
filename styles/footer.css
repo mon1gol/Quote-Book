@@ -1,0 +1,21 @@
+footer{
+    font-size: 20px;
+    background-color: #2E1114;
+    margin-top: 20em;
+    padding: 2em 2em 5em 2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.developers-indent{
+    font-size: 1.4em;
+    margin-bottom: 1em;
+}
+
+.developers div{
+    position: relative;
+    top: 0.5em;
+    padding-top: 0.5em;
+    font-weight: 100;
+}

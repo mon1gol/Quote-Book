@@ -1,0 +1,88 @@
+/* <div class="random-quote">
+            <label for="">Случайная цитата</label>
+            <div class="random-quote-categories">
+                <div class="category"><a class="link-white">Из фильмов</a></div>
+                <div class="category"><a class="link-white">Из музыки</a></div>
+                <div class="category"><a class="link-white">Из игр</a></div>
+                <div class="category"><a class="link-white">От преподавателей</a></div>
+                <div class="category"><a class="link-white">Из книг</a></div>
+            </div>
+            <div class="random-quote-block">
+                <div class="random-quote-text">По крайней мере истинно то, что человек не властен даже над своей волей</div>
+                <div class="random-quote-author">-Гатс</div>
+                <div class="random-quote-work">Берсерк</div>
+                <div class="tags">
+                    <div class="tag">Из фильмов</div>
+                    <div class="tag">Аниме</div>
+                    <div class="tag">Теги</div>
+                    <div class="tag">Теги</div>
+                </div>
+            </div> */
+
+.random-quote label{
+    font-size: 1.6em;
+}
+
+.random-quote img{
+    position: relative;
+    left: 650px;
+    top: 100px;
+}
+
+.random-quote{
+    margin: 0 1em 0 1em;
+}
+
+.random-quote .random-quote-layer{
+    margin: 7em 0 0 0;
+}
+
+.random-quote-layer{
+    display: flex;
+}
+
+.random-quote-category{
+    width: 273px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.random-quote-category{
+    background-image: url(/icon/button-blob.svg);
+}
+
+.random-quote-categories{
+    display: grid;
+    gap: 1em;
+    grid-template-columns: 1fr 1fr;
+    margin-right: 4.5em;
+}
+
+.random-quote-text{
+    font-size: 1.6em;
+    margin-bottom: 3em;
+}
+
+.random-quote-author{
+    font-weight: 100;
+    margin-bottom: 1em;
+}
+
+.random-quote-work{
+    color: #FCFF51;
+    font-weight: 100;
+    margin-bottom: 1em;
+}
+
+.random-quote-tags{
+    font-weight: 100;
+    margin-bottom: 1em;
+    display: flex;
+}
+
+.random-quote-tags div{
+    margin-right: 1em;
+}
+
